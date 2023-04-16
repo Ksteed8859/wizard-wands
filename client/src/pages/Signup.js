@@ -64,7 +64,7 @@ function Signup(props) {
                     flexDirection: 'column',
                     justifyContent: 'center',
                     alignItems: 'center',
-                    height: '8vh',
+                    height: '15vh',
                     marginTop: '4vh',
                     border: 1,
                     paddingBottom: '6vh',
@@ -96,7 +96,16 @@ function Signup(props) {
                         />
                     </div>
                     <div className='submitBtn'>
-                        <button type='submit'>Submit</button>
+                        <Button variant='contained' type='submit'
+                            sx={{
+                                paddingTop: '1px',
+                                paddingBottom: '1px',
+                                backgroundColor: 'white',
+                                type: 'submit',
+                                color: 'black',
+                                }}>
+                                Submit
+                                </Button>
                     </div>
                 </form>
             </Box>

@@ -65,7 +65,7 @@ function Login(props) {
                     flexDirection: 'column',
                     justifyContent: 'center',
                     alignItems: 'center',
-                    height: '8vh',
+                    height: '15vh',
                     marginTop: '4vh',
                     border: 1,
                     paddingBottom: '6vh',
@@ -101,12 +101,11 @@ function Login(props) {
                         </div>
                     ) : null}
                     <div className='flex-row flex-end'>
-                        <Button variant='contained'
+                        <Button variant='contained' type='submit'
                             sx={{
                                 paddingTop: '1px',
                                 paddingBottom: '1px',
                                 backgroundColor: 'white',
-                                type: 'submit',
                                 color: 'black'
                             }}>Submit</Button>
                     </div>
